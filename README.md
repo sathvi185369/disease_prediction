@@ -20,12 +20,16 @@ An intelligent, web-based diagnostic tool that predicts diseases based on sympto
 
 
 ### 👤 Patient Details Form
+
+![image alt](https://github.com/sathvi185369/disease_prediction/blob/142c6af315b1546c1ac52e451eb93e29b934dfa8/Screenshot%202025-08-04%20225408.png)
 - Enter name, age, gender, height, weight
 - Choose 10 symptoms from a dropdown
 
 
 
 ### 📄 Prediction Result
+
+![image alt]()
 - View submitted details
 - Predicted disease
 - Recommended doctor specialization
