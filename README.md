@@ -13,7 +13,7 @@ An intelligent, web-based diagnostic tool that predicts diseases based on sympto
 
 ### 🏠 Home Page
 
-
+![image alt](https://github.com/sathvi185369/disease_prediction/blob/376ecce8fdd22c9c02f26948b425a692d2166442/Screenshot%202025-08-04%20225056.png)
 - Login / Signup access
 - "Not feeling well?" button for diagnosis
 
