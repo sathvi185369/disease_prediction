@@ -47,15 +47,15 @@ Trained on labeled symptom datasets (`Training.csv` and `Testing.csv`), achievin
 ## 👨‍⚕️ Doctor Specializations Mapped
 Based on predicted disease, one of the following specialists is suggested:
 
-Cardiologist
--Neurologist
--Dermatologist
--Urologist
--Allergist/Immunologist
--Rheumatologist
--Gastroenterologist
--ENT Specialist
--Orthopedist
+- Cardiologist
+- Neurologist
+- Dermatologist
+- Urologist
+- Allergist/Immunologist
+- Rheumatologist
+- Gastroenterologist
+- ENT Specialist
+- Orthopedist
 
 ## ⭐ Acknowledgements
 
