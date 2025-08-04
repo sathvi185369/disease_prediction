@@ -29,7 +29,7 @@ An intelligent, web-based diagnostic tool that predicts diseases based on sympto
 
 ### 📄 Prediction Result
 
-![image alt]()
+![image alt](https://github.com/sathvi185369/disease_prediction/blob/849ca08524a56ca91e001f2ba5ce946d6d8af7cc/Screenshot%202025-08-04%20225516.png)
 - View submitted details
 - Predicted disease
 - Recommended doctor specialization
