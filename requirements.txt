@@ -6,3 +6,4 @@ opencv-python
 faiss-cpu
 tensorflow==2.18.0
 streamlit
+gunicorn
