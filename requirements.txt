@@ -1,9 +1,9 @@
-Django>=4.2,<5.0
+Django
 pillow
 numpy
 pandas
 opencv-python
 faiss-cpu
-tensorflow==2.18.0
+tensorflow
 streamlit
 gunicorn
