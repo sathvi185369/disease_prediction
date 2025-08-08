@@ -1,9 +1,6 @@
 Django
-pillow
-numpy
 pandas
-opencv-python
-faiss-cpu
-tensorflow
-streamlit
+numpy
+scikit-learn
+requests
 gunicorn
