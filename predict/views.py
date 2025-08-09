@@ -7,6 +7,8 @@ from django.utils import timezone
 from django.contrib.auth.decorators import login_required
 from .forms import ReportForm
 from .models import Report
+import os
+from django.conf import settings
 
 # Create your views here.
 personal_details = []
@@ -108,10 +110,12 @@ def prediction(request):
     from sklearn.metrics import accuracy_score
 
     # Training data
-    path_train = "C:\\Users\\22nn1\\OneDrive\\Desktop\\smart-healthcare-system-master\\predict\\templates\\predict\\Training.csv"
+    path_train = os.path.join(settings.BASE_DIR, 'predict', 'data', 'Training.csv')
+    path_test = os.path.join(settings.BASE_DIR, 'predict', 'data', 'Testing.csv')
+    
     data_training = pd.read_csv(path_train)
-    path_test = "C:\\Users\\22nn1\\OneDrive\\Desktop\\smart-healthcare-system-master\\predict\\templates\\predict\\Testing.csv"
     data_testing = pd.read_csv(path_test)
+
 
     x_train = data_training.values[:, 0:131]
     y_train = data_training.values[:, 131:132]
