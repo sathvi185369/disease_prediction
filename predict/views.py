@@ -110,8 +110,8 @@ def prediction(request):
     from sklearn.metrics import accuracy_score
 
     # Training data
-    path_train = os.path.join(settings.BASE_DIR, 'predict', 'data', 'Training.csv')
-    path_test = os.path.join(settings.BASE_DIR, 'predict', 'data', 'Testing.csv')
+    path_train = os.path.join(settings.BASE_DIR, 'predict', 'templates', 'predict', 'Training.csv')
+    path_test = os.path.join(settings.BASE_DIR, 'predict', 'templates', 'predict', 'Testing.csv')
     
     data_training = pd.read_csv(path_train)
     data_testing = pd.read_csv(path_test)
